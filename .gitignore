@@ -1,2 +1,3 @@
 # remove all Jupyter cache folder
 **/.ipynb_checkpoints
+*.pipe
