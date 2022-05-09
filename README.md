@@ -1,6 +1,6 @@
-# HAVOC analysis
+# HAVOK analysis
 
-Implementation of Hankel Alternative View of Koopman analysis, based on a [paper](https://www.nature.com/articles/s41467-017-00030-8) by S. Brunton et al, 2017. Project for Laboratory of Computational Physics (module B).
+Implementation of *Hankel Alternative View of Koopman* analysis, based on a [paper](https://www.nature.com/articles/s41467-017-00030-8) by S. Brunton et al, 2017. Project for Laboratory of Computational Physics (module B).
 
 
 Students working on this project:
