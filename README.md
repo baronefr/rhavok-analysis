@@ -12,7 +12,7 @@ Students working on this project:
 | Ninni Daniele |
 
 
-## workflow
+## HAVOK workflow
 
 ![workflow_image](./img/workflow.svg)
 
