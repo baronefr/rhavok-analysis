@@ -12,6 +12,9 @@ Students working on this project:
 | Ninni Daniele |
 
 
+## workflow
+
+![workflow_image](./img/workflow.svg)
 
 ***
 
