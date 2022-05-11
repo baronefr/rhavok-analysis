@@ -7,7 +7,7 @@ Students working on this project:
 | Group 2202  |
 | ------------- |
 | Barone Francesco Pio |
-| Valenti Lorenzo |
+| Valentini Lorenzo |
 | Nagaro Gianmarco | 
 | Ninni Daniele |
 
