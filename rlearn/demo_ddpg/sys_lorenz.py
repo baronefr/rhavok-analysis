@@ -4,7 +4,7 @@
 #
 #  This python class implements a Lorenz attractor system.
 #
-#  coder: Barone Francesco, last edit: 15 may
+#  coder: Barone Francesco, last edit: 16 may
 #--------------------------------------------------------------------------
 #  adapted from tiagoCuervo @ https://github.com/tiagoCuervo/dynSysEnv
 #  under MIT License
