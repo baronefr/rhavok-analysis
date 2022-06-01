@@ -4,7 +4,7 @@
 #  Laboratory of Computational Physics // University of Padua, AY 2021/22
 #  Group 2202 / Barone Nagaro Ninni Valentini
 #
-#    HAVOK analysis: module for moving window analysis
+#    HAVOK analysis: module for live moving window analysis
 #
 #  coder: Barone Francesco, last edit: 17 may 2022
 #--------------------------------------------------------------------------
