@@ -1,6 +1,6 @@
 # rhavok
 
-This is a small Python library used to collect the main assets we use in this work.
+This is a small Python library used to collect the main assets we use in our project.
 
 ```
 -- gym         gym environments

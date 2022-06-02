@@ -21,11 +21,13 @@ In the review, we probe the two techniques above, to characterize the dynamics r
 
 ### usage of rhavok
 
-*rhavok* is the small library we use to collect all the routines we used in this work. To use it, please copy it in your working folder, so to play around as you want. Keep the library in ./ updated with the latest working version. 
-
-At the end of the project, the final library can be installed with
+**rhavok** is a small library we use to collect all the common routines required in this work. You can install the library in *development mode* running the following command from current directory:
 ```
-pip install -e ./rhavok
+pip install -e ./lib_rhavok/
+```
+Then, the library will by available on your system through the usual import fashion:
+```
+import rhavok
 ```
 
 ## The HAVOK analysis workflow
