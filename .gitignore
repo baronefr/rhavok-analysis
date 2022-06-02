@@ -1,3 +1,8 @@
-# remove all Jupyter cache folder
+# remove all cache folder
 **/.ipynb_checkpoints
+**/__pycache__
+# remove pipes
 *.pipe
+# remove tmp folder
+tmp/
+data/
