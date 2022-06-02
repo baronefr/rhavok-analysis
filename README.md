@@ -21,7 +21,7 @@ In the review, we probe the two techniques above, to characterize the dynamics r
 
 ### usage of rhavok
 
-**rhavok** is a small library we use to collect all the common routines required in this work. You can install the library in *development mode* running the following command from current directory:
+**rhavok** is a small library we use to collect all the common routines required by this work. You can install the library in *development mode* running the following command from current directory:
 ```
 pip install -e ./lib_rhavok/
 ```
@@ -29,6 +29,7 @@ Then, the library will by available on your system through the usual import fash
 ```
 import rhavok
 ```
+You may find some usage examples as Jupyter notebooks inside the `lib_rhavok` folder as `doc_*.ipynb`.
 
 ## The HAVOK analysis workflow
 
