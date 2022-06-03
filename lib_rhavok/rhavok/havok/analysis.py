@@ -24,6 +24,7 @@ import control.matlab as cnt
 # SINDy routines
 from rhavok.havok.sindy import sequential_threshold_least_squares
 from rhavok.havok.sindy import SINDy_linear_library
+from rhavok.havok.ext import externals
 
 
 class havok:
@@ -81,7 +82,7 @@ class havok:
         self.activity_criteria_args = {}
         
     
-    def get_test_dataset(self):
+    def get_test_timeseries(self):
         return self.x[self.train_size:]
     
     
@@ -124,6 +125,11 @@ class havok:
     
     def svd_plot_embedded_3d(self):
         pass # plot embedded system (columns of v)
+    
+    def svd_plot_embedded_spectrum(self, limit, **kwargs):
+        # note: temporarily (?) works only on test dataset!
+        return externals.embedded_spectrum(self.x[self.train_size:], self.t[self.train_size:], self.test_mowin, limit, **kwargs)
+        
     
     
     
@@ -220,7 +226,7 @@ class havok:
         if save is not None:
             plt.savefig(save)
             print('Figure saved to', save)
-        plt.show()
+        return plt
     
     
     def show_regression_numerical(self, A = None, rnd = 2):
@@ -380,16 +386,21 @@ class havok:
         plt.xlabel('time [s]')
         plt.ylabel(r'   $v_r$         ', rotation=0)
         plt.suptitle('Forced linear dynamic system', fontweight='bold')
-        plt.show()
+        return plt
     
     
     
     def workflow(self):
-        checkpoint = 'init'
         
-        self.build_Hankel()
-        self.svd()
-        self.set_sindy()
-        self.regression()
+        actions = [ self.build_Hankel(), self.svd(),
+                    self.set_sindy(), self.regression() ]
         
-        return checkpoint
+        for idx, step in enumerate(actions):
+            try:
+                step()
+            except Exception as e:
+                print(" [workflow] failed at step {}: {}".format(idx+1, step))
+                print(e)
+                return(idx + 1)
+        
+        return 0

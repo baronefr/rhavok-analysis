@@ -15,4 +15,14 @@ import rhavok.utils
 #  Open Access licence
 #--------------------------------------------------------------------------
 
-__version__="0.1.4"  # last major edit: 01 june 2022
+__version__ = '0.1.4'
+__major_review__ = '01 june 2022'
+
+def version():
+    print('rhavok | v', __version__)
+    print(' major review:', __major_review__)
+
+def credits():
+    print('rhavok | v', __version__)
+    print(' Barone, Nagaro, Ninni, Valentini')
+    print(' www.github.com/baronefr/rhavok-analysis')
