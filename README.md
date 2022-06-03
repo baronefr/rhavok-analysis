@@ -1,5 +1,6 @@
 # reservoir/HAVOK analysis
 
+
 This is our final project for Laboratory of Computational Physics (module B). In this work, we review some latest dynamical systems analysis techniques.
 
 The first technique is the *Hankel Alternative View of Koopman* (HAVOK) analysis, based on a [paper](https://www.nature.com/articles/s41467-017-00030-8) by S. Brunton et al, 2017. We implement the same results shown in the paper and discuss some features of the forcing term $v_r$.
