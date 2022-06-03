@@ -34,7 +34,7 @@ You may find some usage examples as Jupyter notebooks inside the `lib_rhavok` fo
 
 ## The HAVOK analysis workflow
 
-![workflow_image](./img/workflow.svg)
+![workflow_image](./img/workflow_havok.svg)
 
 ## The reservoir learning workflow
 
