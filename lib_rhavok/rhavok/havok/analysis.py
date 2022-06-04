@@ -392,8 +392,8 @@ class havok:
     
     def workflow(self):
         
-        actions = [ self.build_Hankel(), self.svd(),
-                    self.set_sindy(), self.regression() ]
+        actions = [ self.build_Hankel, self.svd,
+                    self.set_sindy, self.regression ]
         
         for idx, step in enumerate(actions):
             try:

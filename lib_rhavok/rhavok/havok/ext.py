@@ -28,7 +28,7 @@ class externals:
     def embedded_spectrum(x, t, v,             # data
                       limit, selection = None,      # what to plot
                       vf = lambda x: x,             # transformation function for v
-                      figsize = (10,9), alpha = 1): # aesthetics
+                      figsize = (10,9), alpha = 1, ylim = [-.025,.025]): # aesthetics
         
         limit = np.arange(limit[0], limit[1])
         
@@ -37,21 +37,25 @@ class externals:
         ax1.set_ylabel('x(t)')
         
         if selection is None:
-            selection = np.arange(2,v.shape[1]+1)
+            selection = np.arange(1,v.shape[1])
         elif isinstance(selection, int):
-            selection = np.arange(2,selection+1)
+            if selection == -1:
+                v = np.expand_dims(v, axis = 1)
+                selection = [1]
+            else: selection = np.arange(1,selection+1)
         elif isinstance(selection, tuple):
-            selection = np.arange(selection[0],selection[1]+1)
+            selection = np.arange(selection[0]-1,selection[1])
         elif isinstance(selection, list):
             pass
         selection = list(selection)
         
+        
         ax2.set_prop_cycle( cycler( color=[cmap(1.*i/len(selection)) for i in range(len(selection))] ))
         
         for ts in selection:
-            ax2.plot(t[limit], vf(v[limit,ts-1]), label=str(ts), alpha=alpha)
+            ax2.plot(t[limit], vf(v[limit,ts-1]), label=str(ts+1), alpha=alpha)
         
         ax2.set_ylabel(r"$v_i(t)$")
-        ax2.set_ylim([-.021,.021])
+        ax2.set_ylim(ylim)
         ax2.legend()
         return fig
