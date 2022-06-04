@@ -3,6 +3,5 @@
 **/__pycache__
 # remove pipes
 *.pipe
-# remove tmp folder
-tmp/
-data/
+# remove tmp folders
+**/tmp/
