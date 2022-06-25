@@ -2,7 +2,7 @@
 
 coder: Barone
 
-status: alpha
+status: beta > release
 
 
 ```

@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: rhavok
-Version: 0.1.3
+Version: 0.1.4
 Summary: A library for HAVOK & reservoir learning analysis, built for a University project.
 Home-page: https://github.com/baronefr/rhavok-analysis
-Author: F. Barone
+Author: Barone, Nagaro, Ninni, Valentini
 License: Open Access
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Scientists

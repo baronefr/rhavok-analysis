@@ -1,0 +1,37 @@
+<html>
+
+  <head>
+    <title>havok sentinel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mydash/static/bootstrap-grid-only/css/grid12.css">
+      
+    <meta charset="utf-8">
+    {{ bokeh_css }}
+    {{ bokeh_js }}
+    <style type="text/css">{% include 'styles.css' %}</style>
+  </head>
+
+  <body>
+    <div id='content'>
+    
+    <h1 id="this-title">HAVOK sentinel reinforced model</h1>
+    
+    <p style="text-align:left;">
+    <span style="float:right;">
+        Laboratory of Computational Physics, module B<br>
+        <b>Group 2202</b> // Barone, Nagaro, Ninni, Valentini
+    </span>
+    </p>
+    <br>
+        
+    {{ plot_div|indent(8) }}
+    {{ plot_script|indent(8) }}
+
+    <hr>
+    <img src="mydash/static/logo_unipd.png" alt="" height="70" style="float: right; margin-right: 15px;"/>
+    <img src="mydash/static/logo_pod.png" alt="" height="70" style="float: right; margin-right: 15px;"/>
+    <strong>LCP-B project<br>AY 2021/2022 University of Padua</strong><br><br>
+
+  </body>  
+      
+</html>

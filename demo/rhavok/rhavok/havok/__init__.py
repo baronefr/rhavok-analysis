@@ -1,1 +1,0 @@
-from rhavok.havok.moving_window import mowin

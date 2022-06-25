@@ -9,7 +9,8 @@ import os
 import time
 import numpy as np
 
-input_file = '../../data/sb2017/Lorenz_extended.csv'
+#input_file = '../../data/sb2017/Lorenz_extended.csv'
+input_file = '../rhavok/data/simulator_ddpg_dump.txt'
 dt = 0.001   # time step
 
 # set input buffer
@@ -26,7 +27,7 @@ print(' [GENERATOR] my PID is', os.getpid())
 print('target data pipe: ', PIPE_OUT)
 
 print('reading buffer from file')
-xx, yy, zz = np.loadtxt(input_file, unpack=True)
+xx, yy, zz = np.loadtxt(input_file, unpack=True, delimiter=',')
 nmax = len(xx)
 print('file buffer acquired')
 

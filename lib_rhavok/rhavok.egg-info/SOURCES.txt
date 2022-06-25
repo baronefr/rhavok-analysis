@@ -10,6 +10,7 @@ rhavok/gym/__init__.py
 rhavok/gym/gym_lorenz.py
 rhavok/havok/__init__.py
 rhavok/havok/analysis.py
+rhavok/havok/ext.py
 rhavok/havok/moving_window.py
 rhavok/havok/sindy.py
 rhavok/systems/__init__.py
