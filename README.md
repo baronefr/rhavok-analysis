@@ -18,7 +18,10 @@ In this review, we probe the two techniques above to characterize the dynamics r
 
 The following demo implements a trigger for chaotic dynamics control. The acting model is a Deep Deterministic Policy Gradient built in [Keras](https://keras.io/examples/rl/ddpg_pendulum/), whereas the sentinel model is a thresholded HAVOK coordinate. In other words, when the coordinate computed through the HAVOK analysis (on a moving window) exceeds a given threshold, the actor model is triggered to execute an action that prevents the Lorenz attractor to switch lobes.
 
-[![Everything Is AWESOME](https://i3.ytimg.com/vi/KdFz_q_qo3w/maxresdefault.jpg)](https://youtu.be/KdFz_q_qo3w "Everything Is AWESOME")
+<a href="https://youtu.be/KdFz_q_qo3w" target="_blank">
+ <img src="https://i3.ytimg.com/vi/KdFz_q_qo3w/maxresdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
+
 
 <br>
 
