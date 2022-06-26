@@ -1,7 +1,15 @@
 # remove all cache folder
 **/.ipynb_checkpoints
 **/__pycache__
+
 # remove pipes
 *.pipe
+
 # remove tmp folders
 **/tmp/
+
+# remove library locals
+lib_rhavok/rhavok.egg-info
+
+# drawing originals
+*.drawio
