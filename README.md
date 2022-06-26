@@ -21,8 +21,9 @@ The following demo implements a trigger for chaotic dynamics control. The acting
 <p align="center">
 <a href="https://youtu.be/KdFz_q_qo3w" target="_blank">
  <img src="https://i3.ytimg.com/vi/KdFz_q_qo3w/maxresdefault.jpg" alt="Watch the video" width="440"  border="30" />
+ <br>
+ </a>
  click to open on YouTube
-</a>
 </p>
 
 <br>
