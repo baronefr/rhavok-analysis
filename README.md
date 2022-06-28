@@ -48,7 +48,7 @@ You may find some documentation on it, provided as Jupyter notebooks (`doc_*.ipy
 
 ## The Reservoir Computing workflow
 
-![workflow_reservoir](./img/Gauthier_fig1.webp)
+![workflow_reservoir](./img/Gauthier_fig1.webp | width=600 )
 
 Picture from [10.1038/s41467-021-25801-2](https://doi.org/10.1038/s41467-021-25801-2).
 
