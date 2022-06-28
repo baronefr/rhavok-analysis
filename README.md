@@ -42,17 +42,25 @@ You may find some documentation on it, provided as Jupyter notebooks (`doc_*.ipy
 
 <br>
 
-## The HAVOK analysis workflow
+## Workflow summary
+
+### HAVOK analysis
 
 ![workflow_havok](./img/workflow_havok.svg)
 
-## The Reservoir Computing workflow
+### Reservoir Computing
 
 ![workflow_reservoir](./img/Gauthier_fig1.webp)
 
 Picture from [10.1038/s41467-021-25801-2](https://doi.org/10.1038/s41467-021-25801-2).
 
 
+## Bibliography
+
+- Chaos as an intermittently forced linear system [10.1038/s41467-017-00030-8](https://www.nature.com/articles/s41467-017-00030-8) [YouTube](https://youtu.be/XHsYx1kpTXg)
+- Next generation reservoir computing [10.1038/s41467-021-25801-2](https://www.nature.com/articles/s41467-021-25801-2/)
+- Introduction to Next Generation Reservoir Computing [YouTube](https://youtu.be/wbH4En-k5Gs)
+- GitHub/reservoirpy [Next Generation Reservoir Computing](https://github.com/reservoirpy/reservoirpy/blob/master/examples/Next%20Generation%20Reservoir%20Computing/NG-RC_Gauthier_et_al_2021.ipynb)
 
 ***
 
