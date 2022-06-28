@@ -1,3 +1,18 @@
+
+###########################################################################
+#   Laboratory of Computational Physics // University of Padua, AY 2021/22
+#   Group 2202 / Barone Nagaro Ninni Valentini
+#
+#  This python library implements the HAVOK analysis & reservoir learning
+#  routines used for our University project.
+#
+#  coder: F. Barone (manteiner) + G. Nagaro, D. Ninni, L. Valentini
+#  last edit: 2 Jun 2022
+#--------------------------------------------------------------------------
+#  Open Access licence
+#--------------------------------------------------------------------------
+
+
 from threading import Thread
 import matplotlib.pyplot as plt
 #from mpl_toolkits.mplot3d.art3d import Line3DCollection

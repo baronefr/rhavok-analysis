@@ -9,7 +9,7 @@
 **/tmp/
 
 # remove library locals
-lib_rhavok/rhavok.egg-info
+lib_rhavok/rhavok.egg-info/*
 
 # drawing originals
-*.drawio
+**.drawio
