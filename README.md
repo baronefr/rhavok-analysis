@@ -1,7 +1,7 @@
 # HAVOK & Reservoir computing for chaotic dynamics forecast
 
 <p align="center"><b>Group 2202</b> // Barone, Nagaro, Ninni, Valentini<br>
-<b>Referee</b> // Prof. Jeff Byers, Naval Research Laboratory, Washington (<a href="https://www.linkedin.com/in/jeff-byers-8458969/">linkedin</a>)
+<b>Referee</b> // Prof. Jeff M. Byers, Naval Research Laboratory, Washington (<a href="https://www.linkedin.com/in/jeff-byers-8458969/">linkedin</a>)
 </p>
 
 This is our final project for Laboratory of Computational Physics (module B). In this work, we review two dynamical systems analysis techniques and explore whether it is possible to use them in **chaotic dynamics forecast**.
