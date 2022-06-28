@@ -1,7 +1,7 @@
 # HAVOK & Reservoir computing for chaotic dynamics forecast
 
 <p align="center"><b>Group 2202</b> // Barone, Nagaro, Ninni, Valentini<br>
-<b>Referee</b> Prof. Jeff Byers, Naval Research Laboratory, Washington (<a href="https://www.linkedin.com/in/jeff-byers-8458969/">linkedin</a>)
+<b>Referee</b> // Prof. Jeff Byers, Naval Research Laboratory, Washington (<a href="https://www.linkedin.com/in/jeff-byers-8458969/">linkedin</a>)
 </p>
 
 This is our final project for Laboratory of Computational Physics (module B). In this work, we review two dynamical systems analysis techniques and explore whether it is possible to use them in **chaotic dynamics forecast**.
@@ -54,15 +54,14 @@ You may find some documentation on it, provided as Jupyter notebooks (`doc_*.ipy
 
 Picture from [10.1038/s41467-021-25801-2](https://doi.org/10.1038/s41467-021-25801-2).
 
+***
 
-## Bibliography
+### Bibliography
 
 - Chaos as an intermittently forced linear system [10.1038/s41467-017-00030-8](https://www.nature.com/articles/s41467-017-00030-8) [YouTube](https://youtu.be/XHsYx1kpTXg)
 - Next generation reservoir computing [10.1038/s41467-021-25801-2](https://www.nature.com/articles/s41467-021-25801-2/)
 - Introduction to Next Generation Reservoir Computing [YouTube](https://youtu.be/wbH4En-k5Gs)
 - GitHub/reservoirpy [Next Generation Reservoir Computing](https://github.com/reservoirpy/reservoirpy/blob/master/examples/Next%20Generation%20Reservoir%20Computing/NG-RC_Gauthier_et_al_2021.ipynb)
-
-***
 
 <h5 align="center">Lab of Computational Physics (module B) project<br>AY 2021/2022 University of Padua</h5>
 
